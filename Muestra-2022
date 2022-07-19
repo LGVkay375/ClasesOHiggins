@@ -1,0 +1,318 @@
+\documentclass[11pt]{beamer}
+\usetheme{Madrid}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+\usepackage{enumerate} 
+\usepackage[misc]{ifsym}
+\usepackage{tikz}
+\usepackage{smartdiagram}
+\usetikzlibrary{arrows}
+\newcounter{saveenumi}
+\newcommand{\seti}{\setcounter{saveenumi}{\value{enumi}}}
+\newcommand{\conti}{\setcounter{enumi}{\value{saveenumi}}}
+\usepackage{pgfgantt}
+\usepackage{dcolumn}
+\AtEndDocument{\usebeamertemplate{endpage}}
+\defbeamertemplate{section in toc}{sections numbered roman}{%
+  \leavevmode%
+  \MakeUppercase{\romannumeral\inserttocsectionnumber}.\ %
+  \inserttocsection\par}
+
+\setbeamertemplate{section in toc}[sections numbered roman]
+\beamertemplatenavigationsymbolsempty
+\author{Dr Luis Garrido-Vergara\inst{1} \inst{2}}
+\title{RR.II.: Modelos te\'oricos}
+%\subtitle{RR.II.: Modelos te\'oricos}
+%\setbeamercovered{transparent} 
+%\setbeamertemplate{navigation symbols}{}
+%\expandafter\def\expandafter\insertshorttitle\expandafter{%
+%\insertshorttitle\hfill\insertframenumber\,/\,\inserttotalframenumber}
+%\setbeamertemplate{footline}[frame number]
+\logo{\includegraphics[scale=0.2]{UOH.png}  } 
+\institute[UChile/COES]{\inst{1} Instituto de Asuntos P\'ublicos\\ Universidad de Chile\\ {\inst{2} Centro de Estudios de Conflicto y Cohesi\'on Social - COES}}
+\date{08 de julio, 2022} 
+%\subject{} 
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Índice}
+\tableofcontents
+\end{frame}
+
+
+\section{RR.II.: Modelos te\'oricos}
+\begin{frame}
+\frametitle{Índice}
+  \tableofcontents[currentsection]
+\end{frame}
+
+
+\begin{frame}{El Estado y los reg\'imenes pol\'iticos.\\Comparación de sistemas políticos}
+\begin{center}
+\includegraphics[scale=0.45]{27.png} 
+\end{center}
+\end{frame}
+
+\begin{frame}{El Estado y los reg\'imenes pol\'iticos.\\Sistemas políticos del mundo: Democracias y autoritarismos actuales (The Economist, 2017)}
+\begin{center}
+\includegraphics[scale=0.28]{29.png} 
+\end{center}
+\end{frame}
+
+\begin{frame}{El Estado y los reg\'imenes pol\'iticos.\\ Las 'olas' y 'contraolas' de los sistemas políticos }
+\begin{center}
+\includegraphics[scale=0.4]{28.png} 
+\end{center}
+\end{frame}
+
+\begin{frame}{El Estado y los reg\'imenes pol\'iticos.\\ ?`C\'omo se construye el orden mundial? }
+\begin{center}
+\includegraphics[scale=0.3]{World.jpg} 
+\end{center}
+\end{frame}
+
+\begin{frame}{Los paradigmas RR.II. (Hormaz\'abal y Carre\~no, 2006, p.28)}
+\includegraphics[scale=0.5]{Paradigmas.png} 
+\end{frame}
+
+\begin{frame}{Los paradigmas RR.II. Cuadro comparativo de las teor\'ias en RR.II. (Jaramillo Ruiz, 2018, p.241)}
+\includegraphics[scale=0.4]{Jaramillo_2018_241.png}  
+\end{frame}
+
+\section{Los actores relevantes en RR.II.}
+\begin{frame}
+\frametitle{Índice}
+  \tableofcontents[currentsection]
+\end{frame}
+
+\begin{frame}{Los actores relevantes en RR.II.}
+\begin{center}
+\includegraphics[scale=0.5]{Actors.png}\\
+\href{https://revelpreview.pearson.com/epubs/pearson_mcdonald-ir-1e/OPS/xhtml/fileP700101634400000000000000000008F.xhtml}{\beamergotobutton{Manual Pearson}}
+\end{center}
+\end{frame}
+
+\begin{frame}{Los actores relevantes en RR.II. Los grandes poderes: 1816-2016}
+\begin{center}
+\includegraphics[scale=0.6]{Actors_2.png}\\
+\href{https://revelpreview.pearson.com/epubs/pearson_mcdonald-ir-1e/OPS/xhtml/fileP700101634400000000000000000008F.xhtml}{\beamergotobutton{Manual Pearson}}
+\end{center}
+\end{frame}
+
+\begin{frame}{Los actores relevantes en RR.II. La distribuci\'on de las capacidades militares en el sistema internacional}
+\begin{center}
+\includegraphics[scale=0.42]{Military.png}\\
+\href{https://revelpreview.pearson.com/epubs/pearson_mcdonald-ir-1e/OPS/xhtml/fileP700101634400000000000000000008F.xhtml}{\beamergotobutton{Manual Pearson}}
+\end{center}
+\end{frame}
+ 
+
+\section{Paradiplomacia}
+\begin{frame}
+\frametitle{Índice}
+  \tableofcontents[currentsection]
+\end{frame}
+
+\begin{frame}{Paradiplomacia (Zeraoui, 2016)}
+\justifying{
+Relaciones internacionales de los \textbf{gobiernos y actores locales de un Estado-naci\'on} con el fin de promover intereses en com\'un:}
+\bigskip
+\begin{itemize}
+\item Actores regionales
+\item Subestatales 
+\item Provinciales
+\item Municipales
+\item Metropolitanos
+\item ONG's 
+\item Privados, 
+\end{itemize}
+ 
+\end{frame}
+
+\begin{frame}{Paradiplomacia: Principales temas (Zeraoui, 2016, p.30)}
+\bigskip
+\begin{itemize}
+\item Pol\'itica econ\'omica y comercial
+\item Promoci\'on de inversiones extranjeras
+\item Atracci\'on de centros de decisiones
+\item Promoci\'on de exportaciones
+\item Desarrollo de ciencia y tecnolog\'ia
+\item Desarrollo de la energ\'ia
+\item Desarrollo de la eduaci\'on
+\item Desarrollo y protecci\'on del medioambiente
+\item Inmigraci\'on y movilidad de las personas
+\item Desarrollo internacional y de DD.HH.
+\end{itemize}
+ 
+\end{frame}
+
+
+\begin{frame}{Paradiplomacia: El contexto internacional\\ (Magone, 2006, p.6)}
+\includegraphics[scale=0.65]{Transformations.png} 
+\end{frame}
+
+\begin{frame}{Paradiplomacia: El contexto internacional\\ (Magone, 2006, p.7)}
+\begin{itemize}
+\justifying{
+\item \textbf{Paradiplomacia transfronteriza regional}: ''Cross border cooperation" a nivel de regiones vecinas (lim\'itrofes).
+\bigskip
+\item \textbf{Paradiplomacia transregional}: Cooperaci\'on regional.
+\bigskip
+\item \textbf{Paradiplomacia global}: Redes de contactos y acuerdos estrat\'egicos a nivel global incluyendo un amplio rango de actores (gobiernos, empresas, etc.).
+}
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Paradiplomacia: Sus l\'imites (Zeraoui, 2016, p.30-32)}
+
+\begin{itemize}
+\justifying{
+\item A diferencia de la diplomacia tradicional, que está institucionalizada
+en la figura de las secretarías de relaciones exteriores o los ministerios 
+de asuntos internacionales, \textbf{la paradiplomacia está íntimamente ligada 
+a la figura del líder político regional}.
+\bigskip
+\item Para los Estados centrales, y varios autores comparten esta visión,
+la paradiplomacia, retomando la definición de Paquin (2004) es ``\textbf{un
+mandato dado a representantes oficiales por un gobierno sub-estatal
+para negociar con actores internacionales}” (p. 209), pero los límites
+de la paradiplomacia depende de las correlación de poder entre la 
+región y el centro. Es decir, el alcance de la actividad internacional
+de los gobiernos intermedios depende de su propia voluntad y de su
+capacidad de negociar con el poder central.
+}
+\end{itemize}
+\end{frame}
+
+\section{Terrorismo}
+\begin{frame}
+\frametitle{Índice}
+  \tableofcontents[currentsection]
+\end{frame}
+
+
+\begin{frame}{Terrorismo. Definici\'on (Hoffman, 2006) \href{https://ourworldindata.org/terrorism}{\beamergotobutton{ourworldindata.org, 2020}}}
+\begin{itemize}
+\justifying{
+\item Uso ilegal de la \textbf{violencia y la intimidaci\'on, especialmente contra civiles, en la búsqueda de objetivos políticos}. 
+\bigskip
+\item No existe una definición legal \'unica de terrorismo reconocida internacionalmente. A pesar de un debate considerable, la formación de una convención integral contra el terrorismo internacional por parte de las Naciones Unidas \textbf{siempre se ha visto obstaculizada por la falta de consenso sobre una definición}.
+}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Terrorismo. Definici\'on \href{https://ourworldindata.org/terrorism}{\beamergotobutton{ourworldindata.org, 2020}}}
+\begin{itemize}
+\justifying{
+\item El problema clave es que el terrorismo es \textbf{difícil de distinguir de otras formas de violencia política y delitos violentos, como los conflictos armados estatales, los conflictos no estatales, la violencia unilateral, los delitos motivados por el odio y el homicidio}. Las líneas entre estas diferentes formas de violencia suelen ser borrosas. 
+}
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Terrorismo en el mundo:\\ Ataque a las Torres Gemelas (2001)}
+\begin{center}
+\includegraphics[scale=0.4]{Torres.jpg} 
+\end{center}
+\end{frame}
+
+\begin{frame}{Terrorismo en el mundo:\\ Ataques en Par\'is (2015)}
+\begin{center}
+\includegraphics[scale=0.2]{PAris.jpg} 
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Terrorismo en el mundo}
+\begin{center}
+\includegraphics[scale=0.3]{Terrorism.jpg}\\ 
+\href{https://fas.org/irp/threat/terror_chron.html}{\beamergotobutton{Incidentes terroristas en el mundo 1961-2003}}
+\end{center}
+\end{frame}
+
+\begin{frame}{Terrorismo en el mundo: Muertes por actos terroristas}
+\begin{center}
+\includegraphics[scale=0.08]{fatalities-from-terrorism.png} \\
+\href{https://ourworldindata.org/terrorism}{\beamergotobutton{ourworldindata.org}}
+\end{center}
+\end{frame}
+
+\begin{frame}{Terrorismo en el mundo: Muertes por actos terroristas}
+\begin{center}
+\includegraphics[scale=0.08]{fatalities-from-terrorismx.png} \\
+\href{https://ourworldindata.org/terrorism}{\beamergotobutton{ourworldindata.org}}
+\end{center}
+\end{frame}
+
+\begin{frame}{Terrorismo en el mundo: Muertes por actos terroristas}
+\begin{center}
+\includegraphics[scale=0.08]{fatalities-from-terrorism_1.png}   \\
+\href{https://ourworldindata.org/terrorism}{\beamergotobutton{ourworldindata.org}}
+\end{center}
+\end{frame}
+
+
+\section{Los conflictos internacionales: La guerra Rusia-Ucrania}
+\begin{frame}
+\frametitle{Índice}
+  \tableofcontents[currentsection]
+\end{frame}
+
+
+\begin{frame}{Los conflictos internacionales: La guerra Rusia-Ucrania}
+\begin{center}
+\includegraphics[scale=0.3]{Untitled.png}   \\
+\href{https://www.bbc.com/news/world-europe-60506682}{\beamergotobutton{La guerra de Rusia-Ucrania}}
+\end{center}
+
+
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]{Referencias}
+\begin{thebibliography}{Referencias}
+\footnotesize{
+\justifying{
+\setbeamertemplate{bibliography item}[book]
+\bibitem{A} Aldecoa Luzarraga, F., \& Keating, M. (2001). Paradiplomacia: las relaciones internacionales de las regiones. Marcial Pons.
+\setbeamertemplate{bibliography item}[book]
+\bibitem{B} Brown, C. (1992). International relations theory: New normative approaches (Vol. 327). Hemel Hempstead: Harvester Wheatsheaf.
+\setbeamertemplate{bibliography item}[book]
+\bibitem{C}Bull, H. (2005). La Sociedad Anárquica. Ediciones La Catarata, Madrid. 
+\setbeamertemplate{bibliography item}[book]
+\bibitem{D}Hoffman, B. (2006). Inside terrorism. Columbia university press.
+
+\setbeamertemplate{bibliography item}[article]
+\bibitem{C} Horm\'azabal, R. y Carre\~no, E. (2006). Introducci\'on a la teor\'ia de las Relaciones Internacionales. Documento de Apoyo Docente Nº 14. Instituto de Asuntos P\'ublicos – Universidad de Chile.
+
+\setbeamertemplate{bibliography item}[book]
+\bibitem{B} Jaramillo Ruiz, F. (2018). Introducción a las relaciones internacionales. En S\'anchez, F. y Liendo, N. (Eds.) \textit{Estudios y tendencias de la política y las relaciones internacionales}. Bogot\'a: UNiversidad Sergio Arboleda. Pp. 221-249.
+
+\setbeamertemplate{bibliography item}[book]
+\bibitem{D}Magone, J. M. (2006). Paradiplomacy revisited: the structure of opportunities of global governance and regional actors. En \textit{Las relaciones internacionales de las regiones: Actores sub-nacionales, para-diplomacia y gobernanza multinivel}. Fundación Manuel Giménez Abad de Estudios Parlamentarios y del Estado Autonómico. Pp. 1-36.
+\setbeamertemplate{bibliography item}[article]
+\bibitem{D}The Economist (2017). Democracy Index 2017. Free speech under attack. 
+Descarga en: http://pages.eiu.com/
+\setbeamertemplate{bibliography item}[article]
+\bibitem{E} Zeraoui, Z. (2016). Para entender la Paradiplomacia. \textit{Desafíos}, Bogotá (Colombia), (28-I): 15-34, semestre I.
+}}
+\end{thebibliography}
+\end{frame}
+\begin{frame}
+Dr Luis Garrido-Vergara\\
+Documento editado en \textbf{\LaTeX}\\
+\footnotesize{Julio, 2022}
+\end{frame}
+
+\end{document}
